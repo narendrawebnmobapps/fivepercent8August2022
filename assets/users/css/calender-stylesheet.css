@@ -1,0 +1,344 @@
+/* Overall body and content */
+body { 
+    /*height: 100%;
+    width: 100%;
+    margin: 0;
+    background: #005C97;    
+    background: -webkit-linear-gradient(left, #363795, #005C97);
+    background: -moz-linear-gradient(left, #363795, #005C97);
+    background: -o-linear-gradient(left, #363795, #005C97);
+    background: linear-gradient(to right, #363795, #005C97); */
+    /*font-family: Helvetica;*/
+} 
+.content {
+    overflow: none;
+    width: 402px;
+    padding: 0px 0;
+    position: relative;
+    margin: 20px auto;
+    background: #52A0FD;
+    background: -moz-linear-gradient(right,  #52A0FD 0%, #00C9FB 80%, #00C9FB 100%);
+    background: -webkit-linear-gradient(right,  #52A0FD 0%, #00C9FB 80%, #00C9FB 100%);
+    background: linear-gradient(to left,  #52A0FD 0%, #00C9FB 80%, #00C9FB 100%);    
+    border-radius: 3px;
+    box-shadow: 3px 8px 16px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    -moz-box-shadow: 3px 8px 16px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    -webkit-box-shadow: 3px 8px 16px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+/*  Calendar wrapper */
+.calendar-container  { 
+    width: 100%;
+    float: left;
+    position: relative;
+    margin: 0px auto; 
+    height: 100%;
+    background: #eae6e6;
+    font: 13px Helvetica, Arial, san-serif; 
+    display: inline-block; 
+    border-radius: 25px;
+}
+/* Calendar Header */
+.calendar-container .year-header {   
+    font-family: Helvetica;
+    height: 50px; 
+    text-align: center;
+    position: relative; 
+    color:#ff1744; 
+    border-top-left-radius: 3px;
+} 
+.calendar-container .year-header span { 
+    display:inline-block; 
+    font-size: 20px;
+    line-height:40px; 
+    color: #636161;
+}
+.calendar-container .left-button, .calendar-container .right-button { 
+    cursor: pointer;
+    width:28px; 
+    text-align:center; 
+    position:absolute; 
+    /* background: #ff1744;*/
+     color: #fff;
+} 
+.calendar-container .left-button { 
+    left:0; 
+    -webkit-border-top-left-radius: 5px; 
+    -moz-border-radius-topleft: 5px; 
+    border-top-left-radius: 25px; 
+} 
+.calendar-container .right-button { 
+    right:0; 
+    top:0; 
+    -webkit-border-top-right-radius: 5px; 
+    -moz-border-radius-topright: 5px; 
+    border-top-right-radius: 25px; 
+} 
+.calendar-container .left-button:hover {
+    background: transparent;
+    color: #fff;
+}
+.calendar-container .right-button:hover { 
+    background: transparent;
+    color: #fff;
+}
+/* Days/months tables */
+.calendar-container .days-table, .calendar-container .dates-table, .calendar-container .months-table { 
+    border-collapse:separate; 
+    text-align: center;
+} 
+.calendar-container .day { 
+height: 26px;
+width: 88px;
+padding: 0 6px;
+line-height: 26px; 
+text-transform:uppercase; 
+font-size:90%; 
+color:#9e9e9e; 
+} 
+.calendar-container .day span{
+width: 49px;
+height: 35px;
+float: left;
+margin-left: 0px;
+border-top-left-radius: 6px;
+border-top-right-radius: 6px;
+}
+.calendar-container .day:nth-child(1) span{
+background: #f5dc06;
+}
+.calendar-container .day:nth-child(2) span{
+background: #fff;
+}
+
+.calendar-container .day:nth-child(3) span{
+    background: #118ed5;
+}
+.calendar-container .day:nth-child(4) span{
+    background: #fb865a;
+}
+.calendar-container .day:nth-child(5) span{
+    background: #f87d05;
+}
+.calendar-container .day span i{
+    line-height: 35px;
+    font-size:17px;
+    color: #000;
+}
+/************************************************/
+.calendar-container .frame {
+    padding: 1px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 24px;
+}
+.calendar-container .dates-table, .months-table {
+border-collapse: separate;
+text-align: center;
+background: #fff;
+border-radius: 15px;
+float: left;
+width: 91%;
+}
+.calendar-container .icon-table{
+    width: 86%;
+    margin: 0 auto;
+}
+.calendar-container table.dates-table.table tbody tr td {
+border: 1px solid #e8e8e8;
+color: #444;
+font-size: 19px;
+padding: 10px;
+}
+.calendar-container table.dates-table.table tbody tr td.change-color{
+color: #d0cdcd;
+}
+.calendar-container table.dates-table.table tbody tr td.errow-icon span i.fa-arrow-down{
+font-size: 7px;
+color: #e00707;
+}
+.calendar-container table.dates-table.table tbody tr td.errow-icon span i.fa-arrow-up{
+font-size: 8px;
+color: #08b308;
+}
+.calendar-container table.dates-table.table tbody tr td.errow-icon span {
+width: 4px;
+float: right;
+margin-top: -8px;
+}
+table.dates-table.table tbody tr td.errow-icon span i.rop-erow{
+width: 100%;
+float: left;
+}
+
+/****************************************************Secend*******************************************************/
+
+
+.calendar-container .left-count{
+width: 230px;
+float: left;
+}
+.calendar-container .left-count h4{
+text-align: left;
+font-size: 33px;
+margin: 0;
+}
+.calendar-container .inner_padd{
+padding:12px;
+margin-bottom: 20px;
+color: #989696;
+}
+.calendar-container .pera-eur p{
+font-size: 18px;
+color: #989696;
+}
+.calendar-container .pera-eur h3 {
+    background: #0d5ae2;
+    display: inline-block;
+    margin-top: 0;
+    padding: 4px;
+    color: #fff;
+}
+.calendar-container .graph-img{
+    width: 100%;
+    float: left;
+}
+.calendar-container .graph-img img{
+    width: 100%;
+}
+.calendar-container .time-icon img {
+    float: right;
+    width: 30px;
+    margin-top: 13px;
+}
+.calendar-container span.year_033#label {
+    text-align: left;
+    width: 100%;
+    margin-left: 20px;
+    font-size: 62px;
+    margin-top: 30px;
+}
+
+
+
+
+
+/*-----------------Dashbord Responsive Css Here--------------------*/
+
+@media only screen and (max-width: 1280px) {
+.calendar-container .dates-table, .months-table {
+    width: 88% !important;
+}
+}
+
+@media only screen and (max-width: 1200px){
+.calendar-container.mini-cal table.dates-table.table tbody tr td.change-color{
+    width: 54.2px !important;
+    height: 44px !important;
+    float: left;
+}
+.calendar-container.mini-cal table.dates-table.table tbody tr td.errow-icon{
+    width: 54.2px !important;
+    height: 44px !important;
+    float: left;
+}
+.calendar-container .dates-table, .months-table{
+    width: 84%;
+}
+.calendar-container .day span{
+    width: 45px;
+}
+.circle-chart {
+    width: 78px;
+    height: 79px;
+    margin-bottom: 8px;
+}
+}
+
+@media only screen and (max-width: 1100px) {
+.user-contants p{
+    width: inherit;
+    white-space: inherit;
+} 
+.calendar-container .dates-table, .months-table {
+    width: 69% !important;
+}
+.calendar-container.mini-cal table.dates-table.table tbody tr td.change-color{
+    width: 35px !important;
+    height: 35px !important;
+    float: left;
+    font-size: 13px;
+}
+.calendar-container.mini-cal table.dates-table.table tbody tr td.errow-icon {
+    width: 35px !important;
+    height: 35px !important;
+    float: left;
+    font-size: 13px;
+}
+.calendar-container.mini-cal .dates-table, .months-table{
+    width: 65%;
+}
+.calendar-container .day span{
+    width: 30px;
+}
+.circle-chart {
+    width: 78px;
+    height: 79px;
+    margin-bottom: 8px;
+}
+.main-prts {
+    display: block;
+    padding: 7px 0px 20px 0px;
+}
+.user-profile img {
+    width: 100% !important;
+    height: inherit !important;
+}
+.user-profile {
+    display: inline-block;
+    margin-right: 13px;
+    height: 120px !important;
+}
+.calendar-container .frame {
+    padding: 0px;
+    padding-left: 5px;
+}
+}
+
+
+@media only screen and (max-width: 1024px) {
+.calendar-container .day {
+    padding: 0 0px;
+}
+.calendar-container .frame {
+    padding-left: 10px;
+}
+.calendar-container .dates-table, .months-table {
+    width: 61% !important;
+}
+.calendar-container.mini-cal table.dates-table.table tbody tr td.change-color{
+    width: 30px !important;
+    height: 30px !important;
+    float: left;
+    font-size: 12px;
+}
+.calendar-container.mini-cal table.dates-table.table tbody tr td.errow-icon {
+    width: 30px !important;
+    height: 30px !important;
+    float: left;
+    font-size: 12px;
+}
+}
+@media only screen and (max-width: 991px){
+    .calendar-container {
+    width: 230px !important;
+}
+.user-profile {
+    display: inline-block;
+    margin-right: 13px;
+    height: 320px !important;
+}
+.progress-bar-text-info {
+    text-align: center;
+    border: 1px solid #e1e1e1;
+}
+}

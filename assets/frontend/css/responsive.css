@@ -1,0 +1,251 @@
+/*Responsive*/
+
+
+@media (max-width: 1200px){}
+
+@media (max-width: 1024px){}
+
+@media (max-width: 992px){
+.header-top-contacts-info p {
+    margin: 9px 5px 9px 0px;
+    font-size: 14px;
+}
+.container {
+    max-width: 90% !important;
+}
+.navbar-expand-md .navbar-nav .nav-link {
+    font-size: 13px;
+    padding: 31px 10px;
+    font-weight: 500;
+}
+.soical-profile ul li a {
+    color: #e2e1e1;
+    font-size: 14px;
+    font-weight: 500;
+}
+.soical-profile ul {
+    padding-left: 0;
+}
+}
+@media (max-width: 991px) {
+.header-top-login-btns{
+    text-align: center !important;
+}
+.soical-profile ul {
+    padding-left: 0 !important;
+}
+.soical-profile ul li{
+    margin-top: 0px;
+    display: inline !important;
+}
+.soical-profile ul li a {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+}
+.header-top-contacts-info p a {
+    font-size: 13px;
+}
+/*footer*/
+
+.post-contants-footer-01 h2 {
+    line-height: 20px;
+    margin-top: -3px;
+    font-size: 20px;
+}
+.footer-title-prt h3 {
+    color: #fff;
+    font-size: 16px;
+}
+.newsletter-sub-text h2 {
+    font-size: 22px;
+}
+.newsletter-sub-text p {
+    font-size: 16px;
+    font-weight: 400;
+}
+}
+@media (max-width: 854px){
+	.navbar-expand-md .navbar-nav .nav-link {
+    font-size: 13px;
+    padding: 31px 8px;
+    font-weight: 500;
+}
+}
+@media (max-width: 854px){
+.navbar-expand-md .navbar-nav .nav-link {
+    font-size: 12px;
+    padding: 0px 6px;
+    font-weight: 400;
+}
+}
+
+@media (max-width: 768px){
+section.header-top-prt {
+    padding: 10px 0;
+}
+.container {
+    max-width: 100% !important;
+}
+.navbar-toggler {
+    margin-right: 20px;
+}
+.navbar-expand-md .navbar-nav .nav-link {
+    padding: 31px 8px;
+}
+.header-top-contacts-info p {
+    margin: 0px 5px 0px 0px;
+    font-size: 13px;
+    line-height: 18px !important;
+}
+.soical-profile ul {
+    margin-top: 0px;
+}
+.info-text a, .info-text span {
+    font-size: 14px;
+    color: #777;
+    text-transform: capitalize;
+}
+.slider-contant-prt .carousel-caption h1 {
+    font-size: 33px;
+    line-height: 40px;
+}
+.slider-contant-prt .carousel-caption {
+    top: 120px;
+}
+.post-contants-footer-01 h2 a {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+}
+.box-grow-contant h3 a {
+    font-size: 20px;
+}
+section.abouit-information-box-bg-prt {
+    background-image: none;
+    height: auto !important;
+    position: relative;
+    background-repeat: no-repeat;
+    margin-top: 67px;
+    margin-bottom: 17px;
+}
+.box-services .item h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.why-us-contants-prt h3 {
+    line-height: 37px;
+    font-size: 22px;
+}
+.faq-why-us-pad {
+    padding: 0px 0px 50px 10px;
+}
+.box-blog-picks {
+    margin-top: 20px;
+}
+.contant-box-request h3 {
+    font-size: 22px;
+}
+.newsletter-sub-text h2 {
+    font-size: 22px;
+}
+.footer-about-us img {
+    padding-top: 0px;
+    width: 190px;
+}
+.about-information-text h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+    line-height: 22px;
+}
+.about-information-text h2 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+}
+
+@media (max-width: 767px){
+	.info-intro-number span {
+    color: #a19e9e;
+    font-size: 20px;
+    font-weight: 600;
+    float: left;
+    margin-top: 0px;
+}
+.navbar-expand-md .navbar-nav .nav-link {
+    padding: 8px 23px;
+    color: #fff;
+    border-top: 1px solid #bbbaba;
+}
+.navbar-expand-md .navbar-nav .nav-link:hover{
+    background: #f6bb19;
+    color: #000 !important;
+}
+.footer-title-prt iframe{
+    width: 100%;
+}
+.contacts-btn h4 a {
+    padding: 10px 0px;
+    width: 120px;
+    font-size: 16px;
+    text-align: center;
+    float: left;
+}
+}
+@media (max-width: 640px){
+section.about-company {
+    margin: 30px 0px 50px;
+}
+.testimonial-section2 {
+    padding: 0px 0;
+}
+.about-compant-text h2 {
+    font-size: 26px;
+    line-height: 40px;
+    margin-bottom: 28px;
+}
+.helping-text-business-text h2 {
+    padding-top: 80px;
+    margin-bottom: 19px;
+    font-size: 26px;
+}
+.we-love-what-text h2 {
+    font-size: 26px;
+}
+.heading-text-testimounals h2 {
+    font-size: 26px;
+    line-height: 62px;
+    margin-bottom: 7px;
+}
+.blog-heading-text h2 {
+    font-size: 26px;
+    line-height: 54px;
+}
+section.helping-small-businesses .count-title {
+    font-size: 26px;
+}
+section.helping-small-businesses .counter:before {
+    top: 30px;
+    height: 56px;
+}
+section.helping-small-businesses .count-text {
+    font-size: 14px;
+}
+}
+@media only screen and (max-width: 600px) {
+    section.header-top-prt {
+    padding: 5px 0;
+    text-align: center;
+}
+.fixed-top {
+    position: static;
+}
+@media only screen and (max-width: 375px) {
+ .form-bg-prt-sec {
+    margin: 138px 0px 50px 0px;
+}
+.form-bg-prt-sec {
+    background-color: #fff;
+    padding: 70px 10px 43px 10px;
+}
+}

@@ -1,0 +1,163 @@
+/*--------------------
+Mobile Responsive Css Here
+Tab Css Here
+IPad Css Here
+ipadplus Css Here
+Others Responsive Css Here
+Others Css Here
+---------------------------*/
+
+
+/*-----------------  Responsive Css Here --------------------*/
+/*@media only screen and (max-width: 1920px) {
+.client-profile-tab .panel-body {
+    height: 590px !important;
+}
+}*/
+@media only screen and (max-width: 1366px) {
+.client-profile-tab .panel-body {
+    /*height: 450px !important;*/
+}
+}
+
+@media only screen and (max-width: 1280px) {
+.calendar-container .dates-table, .months-table {
+    width: 88% !important;
+}
+}
+@media only screen and (max-width: 1024px) {
+.monthly-income-text h3 span{
+float: inherit;
+}
+.center-profile-box {
+    width: 100% !important;
+}
+.monthly-income-text h3 span {
+    display: block;
+    float: right;
+    margin-right: 0px;
+}
+.text-user-clientlist-info {
+    width: 30%;
+    margin-left: 30px;
+}
+}
+
+@media only screen and (max-width: 991px) {
+.monthly-income-text h3 span{
+float: inherit;
+}
+.box-contant-boxe-question .panel-body {
+    padding: 15px 0;
+}
+.value_enterquestin{
+	width: 	100% !important;
+ }
+.income-tbl-sec-clients table, .assets-blance-shert-client-pro table {
+    margin: 20px 0 0 0 !important;
+}
+.hide-text{
+	display: none;
+}
+.bradcrum-list {
+    margin-top: 40px;
+}
+.money-management {
+    background: #fff;
+    height: 100vh;
+}
+span.border02 {
+    margin-bottom: 20px;
+}
+.chat-info-respond .type_msg {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    padding: 0 12px;
+}
+.chat-info-respond .msg_send_btn {
+    right: 12px;
+    top: 8px;
+}
+}
+
+@media only screen and (max-width: 832px) {
+.tradingdiaryDiv table{
+    width: 620px;
+}
+.tradingdiaryDiv{
+	height: auto !important;
+	width: 100%;
+    float: left;
+    overflow: scroll;
+    margin-bottom: 20px;
+}
+}
+@media only screen and (max-width: 800px) {
+.box-contant-boxe-question .persnal-info-form-make input[type="text"], .box-contant-boxe-question .persnal-info-form-make input[type="email"], .box-contant-boxe-question .persnal-info-form-make input[type="password"], .box-contant-boxe-question .persnal-info-form-make select {
+    height: 30px;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.box-contant-boxe-question .panel-tabs > li {
+    float: left;
+    margin: 2px;
+    border: 1px solid #fff;
+}
+.user-prfofile-persnal-info {
+    margin-bottom: 10px;
+}
+.box-contant-boxe-question .panel-tabs > li:last-child {
+    border: 1px solid #fff;
+}
+.box-contant-boxe-question .nav>li>a {
+    position: relative;
+    display: block;
+    padding: 0px 5px;
+}
+.boc-information-prts-sec{
+	width: 100%;
+}
+.tradingdiaryDiv{
+	height: auto !important;
+}
+.monthly-income-text h3 span {
+    display: block;
+    float: right;
+    margin-right: 0px !important;
+}
+.client-profile-tab .panel-body {
+    padding: 0px;
+}
+.text-user-clientlist-info {
+    width: 34%;
+    margin-left: 53px;
+}
+}
+ @media only screen and (max-width: 767px) {
+ 	.bradcrum-list ul {
+    padding: 0px;
+    margin-top: 40px;
+}
+.finance-statement-heading-text h3 {
+    font-size: 22px;
+    color: #08384f;
+}
+.contant-finanecr-addverger h4 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #08384f;
+    line-height: 25px;
+    margin-bottom: 16px;
+}
+.contant-finanecr-addverger p {
+    margin-bottom: 30px;
+}
+
+}
+
+/*side nav*/
+
+
+
+
